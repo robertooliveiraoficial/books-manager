@@ -14,7 +14,7 @@ public class BookController : ControllerBase
     #endregion
 
     /// <summary>
-    /// Retorna uma lista de todos os livros
+    /// - Retorna uma lista de todos os livros
     /// </summary>
     /// <param name="No Params">No Params</param>
     /// <returns>Json</returns>
@@ -30,7 +30,7 @@ public class BookController : ControllerBase
     }
 
     /// <summary>
-    /// Retorna uma lista de todos os livros em ordem CRESCENTE tendo o valor do campo "preço" usado como referência/parâmetro
+    /// - Retorna uma lista de todos os livros em ordem CRESCENTE tendo o valor do campo "preço" usado como referência/parâmetro
     /// </summary>
     /// <param name="No Params">No Params</param>
     /// <returns>Json</returns>
@@ -48,7 +48,7 @@ public class BookController : ControllerBase
     }
 
     /// <summary>
-    /// Retorna uma lista de todos os livros em ordem DECRESCENTE tendo o valor do campo "preço" usado como referência/parâmetro
+    /// - Retorna uma lista de todos os livros em ordem DECRESCENTE tendo o valor do campo "preço" usado como referência/parâmetro
     /// </summary>
     /// <param name="No Params">No Params</param>
     /// <returns>Json</returns>
@@ -65,7 +65,7 @@ public class BookController : ControllerBase
     }
 
     /// <summary>
-    /// Retorna uma lista de todos os livros de acordo com o "nome do autor" passado como referência/parâmetro
+    /// - Retorna uma lista de todos os livros de acordo com o "nome do autor" passado como referência/parâmetro
     /// </summary>
     /// <param name="author">Nome do autor do livro</param>
     /// <returns>Json</returns>
@@ -83,7 +83,7 @@ public class BookController : ControllerBase
     }
 
     /// <summary>
-    /// Retorna uma lista de todos os livros de acordo com o "nome do livro" passado como referência/parâmetro
+    /// - Retorna uma lista de todos os livros de acordo com o "nome do livro" passado como referência/parâmetro
     /// </summary>
     /// <param name="bookName">Nome do livro</param>
     /// <returns>Json</returns>
@@ -101,7 +101,7 @@ public class BookController : ControllerBase
     }
 
     /// <summary>
-    /// Retorna uma lista de todos os livros de acordo com o "gênero" passado como referência/parâmetro
+    /// - Retorna uma lista de todos os livros de acordo com o "gênero" passado como referência/parâmetro
     /// </summary>
     /// <param name="genre">Gênero do livro</param>
     /// <returns>Json</returns>
