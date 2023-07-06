@@ -18,7 +18,7 @@ public class BookController : ControllerBase
     /// </summary>
     /// <param name="No Params">No Params</param>
     /// <returns>Json</returns>
-    /// <response code="200">Caso a consulta seja executada com sucesso</response>
+    /// <response code="200">Caso a consulta seja executada com sucesso.</response>
     [HttpGet("GetBooks")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<List<Book>> JsonForBooks()
@@ -34,7 +34,7 @@ public class BookController : ControllerBase
     /// </summary>
     /// <param name="No Params">No Params</param>
     /// <returns>Json</returns>
-    /// <response code="200">Caso a consulta seja executada com sucesso</response>
+    /// <response code="200">Caso a consulta seja executada com sucesso.</response>
     [HttpGet("OrderByPriceAsc")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<List<Book>> GetBooksOrderByPriceAsc()
@@ -52,7 +52,7 @@ public class BookController : ControllerBase
     /// </summary>
     /// <param name="No Params">No Params</param>
     /// <returns>Json</returns>
-    /// <response code="200">Caso a consulta seja executada com sucesso</response>
+    /// <response code="200">Caso a consulta seja executada com sucesso.</response>
     [HttpGet("OrderByPriceDesc")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<List<Book>> GetBooksOrderByPriceDesc()
@@ -69,7 +69,7 @@ public class BookController : ControllerBase
     /// </summary>
     /// <param name="author">Nome do autor do livro</param>
     /// <returns>Json</returns>
-    /// <response code="200">Caso a consulta seja executada com sucesso</response>
+    /// <response code="200">Caso a consulta seja executada com sucesso.</response>
     [HttpGet("GetBooksByAuthorName")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<List<Book>> GetBooksByAuthorName(string author)
@@ -87,7 +87,7 @@ public class BookController : ControllerBase
     /// </summary>
     /// <param name="bookName">Nome do livro</param>
     /// <returns>Json</returns>
-    /// <response code="200">Caso a consulta seja executada com sucesso</response>
+    /// <response code="200">Caso a consulta seja executada com sucesso.</response>
     [HttpGet("GetBooksByBookName")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<List<Book>> GetBooksByBookName(string bookName)
@@ -105,7 +105,7 @@ public class BookController : ControllerBase
     /// </summary>
     /// <param name="genre">Gênero do livro</param>
     /// <returns>Json</returns>
-    /// <response code="200">Caso a consulta seja executada com sucesso</response>
+    /// <response code="200">Caso a consulta seja executada com sucesso.</response>
     [HttpGet("GetBooksByGenre")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<List<Book>> GetBooksByGenre(string genre)
